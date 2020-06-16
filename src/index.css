@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#f7f7f7;
+}
+#root{
+  width: 800px;
+  margin-top: 60px;
+  margin-left: 350px;
+  /*background-color: aqua;*/
+  justify-content: center;
+ 
+}
+
+h1{
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 30px;
+  color: chocolate;
+}
+.logo_name{
+  
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
+  text-align: center;
+}
+
+h4{
+  font-size: 15px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.expences_box{
+  height: 100px;
+  background-color:#FFF;
+  box-shadow: 0 0 5px 1px  #666;
+  margin-top: 20px;
+  display: block;
+}
+
+.expences_list{
+  list-style: none;
+
+
+}
+li{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.expences_list .second_item{
+  /*padding-left: 190px;
+  margin-left:90px;*/
+  float: right;
+  padding-right: 80px;
+}
+
+.first_item > h4,.second_item > h4{
+  padding-left: 0px;
+}
+
+.first_item > h1{
+  color: green;
+}
+
+.second_item > h1{
+  color: red;
+}
+
+/* --------------------History Box Styling-------------- */
+.history_title{
+  margin: 40px 0 2px 0;
+  font-family: 'Times New Roman';
+}
+
+.history_box_1negative{
+  height: 30px;
+  background-color: #FFF;
+  border-right: 5px solid red;
+  box-shadow: 0 3px 5px 0 #666;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.history_box_2positive{
+  height: 30px;
+  background-color: #FFF;
+  border-right: 5px solid green;
+  box-shadow: 0 3px 5px 0 #666;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+
+.history_box_1negative:hover .delete_btn{
+  opacity: 1;
+}
+
+.history_box_2positive:hover .delete_btn{
+  opacity: 1;
+}
+
+.delete_btn{
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 30px;
+  line-height: 20px;
+  opacity: 0;
+  padding: 6px;
+  transition: opacity 0.3s ease;
+  float: left;
+}
+
+.text_expences{
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'monospace';
+}
+
+.price{
+  padding-right: 5px;
+  float: right;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'monospace';
+}
+
+.form-control > label{
+  display: inline-block;
+  margin: 10px 0;
+}
+
+input[type='text'],input[type='number']
+{
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 19px;
+  padding: 16px;
+  width: 96%;
+  background-color: #FFF;
+}
+
+.btn{
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 12px;
+  border-style: none;
+  background-color: blueviolet;
+  font-size: 19px;
+  width: 100%;
+  text-align: center;
+  color: #dedede;
+}
+
+
+.btn:hover{
+  background-color: green;
+}
+
+.dark{
+  background-color: black;
+}
+.blue{
+  background-color: blue;
+}
+/*
+.container {
+  margin: 30px auto;
+  width: 350px;
+}
+
+
+
+*/
